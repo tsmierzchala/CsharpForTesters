@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CsharpForTesters._03_Obiekty
+namespace CsharpForTesters._03_Wyjatki
 {
     internal class Wyjatki
     {

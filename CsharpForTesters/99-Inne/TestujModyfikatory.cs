@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CsharpForTesters._01_Wstep
+namespace CsharpForTesters._99_Inne
 {
-    internal class Statyczne
+    internal class TestujModyfikatory
     {
     }
 }

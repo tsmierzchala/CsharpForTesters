@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CsharpForTesters._02_Modyfikatory
+namespace CsharpForTesters._06_Modyfikatory
 {
     internal class Modyfikatory
     {

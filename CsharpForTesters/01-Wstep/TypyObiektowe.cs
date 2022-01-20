@@ -6,5 +6,9 @@ namespace CsharpForTesters._01_Wstep
 {
     internal class TypyObiektowe
     {
+        public static void Main()
+        {
+
+        }
     }
 }
