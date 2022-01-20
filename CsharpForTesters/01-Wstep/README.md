@@ -17,7 +17,8 @@ I nadaj im dowolne prawidłowe wartości.
 #### Zadanie 2
 
 W klasie `TypyProste.cs` do zmiennej `int a` dodaj liczbę `2147483647`. 
-Jaki otrzymałeś wynik, czy potrafisz wytłumaczyć co się stało?
+
+Jaki otrzymałeś wynik? Czy potrafisz wytłumaczyć co się stało?
 
 #### Zadanie 3
 
@@ -44,10 +45,10 @@ Wydrukuj w konsoli napis `Tester był "bardzo" ucieszony z powodu notorycznego i
 #### Zadanie 5
 
 Utwórz zmienne i przypisz im dowolne wartości:
-* string name
-* int age
+* `string name`
+* `int age`
 
-Wydrukuj napis w formacie "Imię, ma X lat i jest (nie)pełnoletni" w zależności od tego czy zmienna age jest mniejsza od 18 czy nie.
+Wydrukuj napis w formacie "Imię, ma X lat i jest (nie)pełnoletni" w zależności od tego czy zmienna `age` jest mniejsza od 18 czy nie.
 
 *Wskazówka: Użyj do tego zmiennych `name` oraz `age` oraz string interpolation.*
 
@@ -83,7 +84,7 @@ else
 ```
 
 #### Zadanie 9
-Używając wyrażenia switch wydrukuj napis z nazwą dnia tygodnia na podstawie wartości zmiennej `int dayOfTheWeek`.
+Używając wyrażenia `switch` wydrukuj napis z nazwą dnia tygodnia na podstawie wartości zmiennej `int dayOfTheWeek`.
 
 1 -> Poniedziałek, 2 -> Wtorek, ..., 7 -> Niedziela, inne wartości -> Błędny dzień
 
