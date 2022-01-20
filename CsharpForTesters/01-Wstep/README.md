@@ -62,12 +62,33 @@ Stwórz zmienną typu string i wydrukuj w konsoli odwrócony napis.
 
 
 #### Zadanie 7
-
-TODO
+1. Utwórz zmienną int value i nadaj jej wartość pomiędzy 0 a 100.
+2. Jeżeli zmienna value jest mniejsza od zera lub większa od 100 wydrukuj napis `To nie jest akceptowalna wartość zmiennej value`
+3. Jeżeli zmienna value znajduje się w przedziale <0, 100>, wydrukuj napis `Pomiar wynosi value` (użyj wartości zmiennej)
+4. Zmień wartość zmienne int value na mniejszą od zera i uruchom jeszcze raz program żeby sprawdzić czy działa.
 
 #### Zadanie 8
+Napisz ten kod używając tenary operator (operatora warunkowego ?)
+```csharp
+double input = 5.5;
+string jakiePiwo;
+if (input >= 4)
+{
+    jakiePiwo = "mocne";
+}
+else
+{
+    jakiePiwo = "słabe";
+}
+```
 
-TODO
+#### Zadanie 9
+Używając wyrażenia switch wydrukuj napis z nazwą dnia tygodnia na podstawie wartości zmiennej `int dayOfTheWeek`.
+
+1 -> Poniedziałek, 2 -> Wtorek, ..., 7 -> Niedziela, inne wartości -> Błędny dzień
+
+
+
 
 ### Metody (statyczne)
 
@@ -75,7 +96,7 @@ Wszystkie zadania do rozwiązania w klasie `Metody.cs`.
 
 Działanie metod przetestuj w metodzie `public static void Main()`
 
-#### Zadanie 9
+#### Zadanie 10
 
 Napisz metodę, która zwróci wartość ceny `price` po rabacie `discount`.
 Rabat ma być podany jako liczba zmiennoprzecinkowa (`20%` rabatu będzie przekazane jako wartość `0.2`)
@@ -84,7 +105,7 @@ public static double CalculatePrice(int price, double discount)
 ```
 
 
-#### Zadanie 10
+#### Zadanie 11
 
 Napisz metodę, która przyjmuje trzy liczby (a, b oraz c) i zwraca największą z nich.
 ```csharp
@@ -92,7 +113,7 @@ public static double MaxFrom(double a, double b, double c)
 ```
 
 
-#### Zadanie 11
+#### Zadanie 12
 
 Napisz metodę, która przyjmie trzy parametry 
 * `title`, 
@@ -102,7 +123,7 @@ Napisz metodę, która przyjmie trzy parametry
 Metoda ma **zwrócić** napis w postaci `Hobbit, autorstwa JR. Tolkien wydany przez Wydawnictwo X`
 
 
-#### Zadanie 12
+#### Zadanie 13
 
 Metoda ma przyjąć cztery parametry (liczbę, cenę jednostkową, rabat oraz spodziewaną kwotę do drugiego miejsca po przecinku)
 Liczba produktów (pcs) pomnożona przez cenę jednostkową (price) minus rabat procentowy od całości ma być równa oczekiwanej sumie.
