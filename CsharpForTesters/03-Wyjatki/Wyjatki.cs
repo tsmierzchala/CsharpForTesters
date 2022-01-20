@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CsharpForTesters._01_Wstep
+namespace CsharpForTesters._03_Obiekty
 {
-    internal class TypyProste
+    internal class Wyjatki
     {
         public static void Main()
         {
         }
-        
     }
 }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CsharpForTesters._03_Obiekty
+namespace CsharpForTesters._01_Wstep
 {
-    internal class Klasy
+    internal class Metody
     {
     }
 }

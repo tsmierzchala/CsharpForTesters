@@ -6,5 +6,8 @@ namespace CsharpForTesters._01_Wstep
 {
     internal class Petle
     {
+        public static void Main()
+        {
+        }
     }
 }

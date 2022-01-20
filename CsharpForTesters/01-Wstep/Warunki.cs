@@ -6,5 +6,8 @@ namespace CsharpForTesters._01_Wstep
 {
     internal class Warunki
     {
+        public static void Main()
+        {
+        }
     }
 }

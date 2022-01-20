@@ -4,7 +4,10 @@ using System.Text;
 
 namespace CsharpForTesters._03_Obiekty
 {
-    internal class Wyjatki
+    internal class Interfejsy
     {
+        public static void Main()
+        {
+        }
     }
 }

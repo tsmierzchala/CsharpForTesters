@@ -4,7 +4,10 @@ using System.Text;
 
 namespace CsharpForTesters._02_Struktury_danych
 {
-    internal class Listy
+    internal class Slowniki
     {
+        public static void Main()
+        {
+        }
     }
 }

@@ -1,0 +1,4 @@
+﻿
+
+
+### Metody (obiektów)

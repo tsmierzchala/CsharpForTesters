@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CsharpForTesters._01_Wstep
+namespace CsharpForTesters._02_Struktury_danych
 {
-    internal class TypyProste
+    internal class Listy
     {
         public static void Main()
         {
         }
-        
     }
 }

@@ -4,11 +4,7 @@ using System.Text;
 
 namespace CsharpForTesters._01_Wstep
 {
-    internal class TypyProste
+    internal class TypyObiektowe
     {
-        public static void Main()
-        {
-        }
-        
     }
 }

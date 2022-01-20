@@ -4,7 +4,10 @@ using System.Text;
 
 namespace CsharpForTesters._03_Obiekty
 {
-    internal class Dziedziczenie
+    internal class ObslugaWyjatkow
     {
+        public static void Main()
+        {
+        }
     }
 }

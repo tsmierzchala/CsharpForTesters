@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CsharpForTesters._03_Obiekty
+namespace CsharpForTesters._02_Modyfikatory
 {
-    internal class Interfejsy
+    internal class Modyfikatory
     {
     }
 }

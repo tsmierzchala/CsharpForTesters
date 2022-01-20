@@ -6,5 +6,8 @@ namespace CsharpForTesters._01_Wstep
 {
     internal class Stringi
     {
+        public static void Main()
+        {
+        }
     }
 }

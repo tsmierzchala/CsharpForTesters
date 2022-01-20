@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CsharpForTesters._02_Struktury_danych
+namespace CsharpForTesters._02_Modyfikatory
 {
-    internal class Slowniki
+    internal class Dziecko
     {
     }
 }
