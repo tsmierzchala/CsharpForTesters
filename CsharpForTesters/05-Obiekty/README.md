@@ -1,4 +1,4 @@
-﻿
+﻿## Obiekty
 
 
 ### Metody (obiektów)

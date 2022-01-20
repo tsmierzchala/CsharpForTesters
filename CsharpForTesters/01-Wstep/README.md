@@ -3,6 +3,7 @@
 ### Typy proste
 
 #### Zadanie 1
+
 W klasie `TypyProste.cs` utwórz zmienne typu
 1. int a
 2. char b
@@ -14,10 +15,12 @@ I nadaj im dowolne prawidłowe wartości.
 
 
 #### Zadanie 2
+
 W klasie `TypyProste.cs` do zmiennej `int a` dodaj liczbę `2147483647`. 
 Jaki otrzymałeś wynik, czy potrafisz wytłumaczyć co się stało?
 
 #### Zadanie 3
+
 Wklej i uruchom kod. Czy przed uruchomieniem wiesz jaką wartość przyjmie zmienna `warunek` i dlaczego?
 ```csharp
 double y = 0.1;
@@ -32,30 +35,48 @@ Console.WriteLine(warunek);
 Wszystkie zadania wykonaj w klasie `TypyObiektowe.cs` w metodzie `public static void Main()`
 
 #### Zadanie 4
+
 Wydrukuj w konsoli napis `Tester był "bardzo" ucieszony z powodu notorycznego ignorowania raportów błędów przez developera`
+
+*Wskazówka: Zwróć uwagę na cudzysłów w środku stringa*
 
 
 #### Zadanie 5
+
 Utwórz zmienne i przypisz im dowolne wartości:
 * string name
 * int age
 
-Wydrukuj napis w formacie "Jan, ma X lat i jest (nie)pełnoletni" w zależności od tego czy zmienna age jest mniejsza od 18 czy nie.
-Użyj do tego string interpolation
+Wydrukuj napis w formacie "Imię, ma X lat i jest (nie)pełnoletni" w zależności od tego czy zmienna age jest mniejsza od 18 czy nie.
+
+*Wskazówka: Użyj do tego zmiennych `name` oraz `age` oraz string interpolation.*
 
 #### Zadanie 6
+
 Stwórz zmienną typu string i wydrukuj w konsoli odwrócony napis.
-Przykład: dla napisu `Kamil Ślimak` powinniśmy otrzymać `kamilŚ limaK`
+
+*Przykład: dla napisu `Kamil Ślimak` powinniśmy otrzymać `kamilŚ limaK`*
 
 
 ### Warunki
 
 
+#### Zadanie 7
+
+TODO
+
+#### Zadanie 8
+
+TODO
+
 ### Metody (statyczne)
 
-Wszystkie zadania do rozwiązania w klasie `Metody.cs`
+Wszystkie zadania do rozwiązania w klasie `Metody.cs`. 
 
-#### Zadanie 7
+Działanie metod przetestuj w metodzie `public static void Main()`
+
+#### Zadanie 9
+
 Napisz metodę, która zwróci wartość ceny `price` po rabacie `discount`.
 Rabat ma być podany jako liczba zmiennoprzecinkowa (`20%` rabatu będzie przekazane jako wartość `0.2`)
 ```csharp
@@ -63,27 +84,31 @@ public static double CalculatePrice(int price, double discount)
 ```
 
 
-#### Zadanie 8
+#### Zadanie 10
+
 Napisz metodę, która przyjmuje trzy liczby (a, b oraz c) i zwraca największą z nich.
 ```csharp
 public static double MaxFrom(double a, double b, double c)
 ```
 
 
-#### Zadanie 9
+#### Zadanie 11
+
 Napisz metodę, która przyjmie trzy parametry 
 * `title`, 
 * `author` 
 * `publisher` 
 
-Metoda ma zwrócić napis w postaci `Hobbit, autorstwa JR. Tolkien wydany przez Wydawnictwo X`
+Metoda ma **zwrócić** napis w postaci `Hobbit, autorstwa JR. Tolkien wydany przez Wydawnictwo X`
 
 
-#### Zadanie 10
+#### Zadanie 12
+
 Metoda ma przyjąć cztery parametry (liczbę, cenę jednostkową, rabat oraz spodziewaną kwotę do drugiego miejsca po przecinku)
 Liczba produktów (pcs) pomnożona przez cenę jednostkową (price) minus rabat procentowy od całości ma być równa oczekiwanej sumie.
 Metoda ma zwrócić true (kwota się zgadza) lub false (kwota się nie zgadza)
-Podpowiedź: Użyj Math.Round() do zaokrąglenia porównywanych kwot do jednego grosza.
+
+*Podpowiedź: Użyj Math.Round() do zaokrąglenia porównywanych kwot do jednego grosza.*
 
 ```csharp
 public static bool validateSumWithDiscount(int pcs, double price, double discount, double expectedSum)
