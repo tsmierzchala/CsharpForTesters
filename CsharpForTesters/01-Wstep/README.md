@@ -90,7 +90,6 @@ Używając wyrażenia `switch` wydrukuj napis z nazwą dnia tygodnia na podstawi
 
 
 
-
 ### Metody (statyczne)
 
 Wszystkie zadania do rozwiązania w klasie `Metody.cs`. 
@@ -136,3 +135,8 @@ Metoda ma zwrócić true (kwota się zgadza) lub false (kwota się nie zgadza)
 public static bool validateSumWithDiscount(int pcs, double price, double discount, double expectedSum)
 ```
 
+Zadanie 14
+
+Metoda ma przyjąć dwa parametry, współrzędne x oraz y punktu na osi współrzędnych
+
+![Wyjasnienie zadania 14](../img/zad14.png)
