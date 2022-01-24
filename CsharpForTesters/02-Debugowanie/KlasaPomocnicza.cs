@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CsharpForTesters._02_Debugowanie
 {
-    internal class KlasaPomocnicza
+    public class KlasaPomocnicza
     {
         public static void Niespodzianka()
         {

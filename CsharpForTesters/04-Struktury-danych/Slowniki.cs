@@ -4,9 +4,9 @@ using System.Text;
 
 namespace CsharpForTesters._04_Struktury_danych
 {
-    internal class Slowniki
+    public class Slowniki
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
         }
     }

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace CsharpForTesters._05_Obiekty
 {
-    internal class Interfejsy
+    public class Interfejsy
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
         }
     }

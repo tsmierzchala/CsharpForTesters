@@ -4,9 +4,9 @@ using System.Text;
 
 namespace CsharpForTesters._02_Debugowanie
 {
-    internal class DebugujMnie
+    public class DebugujMnie
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             int x = 5 * 3 - 32 + 12 * 2;
             string text = "Ala ma " + x + " kotów";

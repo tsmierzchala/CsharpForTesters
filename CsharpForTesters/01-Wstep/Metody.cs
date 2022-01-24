@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CsharpForTesters._01_Wstep
 {
-    internal class Metody
+    public class Metody
     {
     }
 }

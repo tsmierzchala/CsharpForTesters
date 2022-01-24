@@ -4,9 +4,9 @@ using System.Text;
 
 namespace CsharpForTesters._02_Debugowanie
 {
-    internal class DebugowanieWarunkowe
+    public class DebugowanieWarunkowe
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             var v = 0;
 

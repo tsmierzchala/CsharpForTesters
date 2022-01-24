@@ -4,9 +4,9 @@ using System.Text;
 
 namespace CsharpForTesters._03_Wyjatki
 {
-    internal class RzucanieWyjatkow
+    public class RzucanieWyjatkow
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             int[] arr1 = { };
             int[] arr2 = { 1, 11, 3, 4, 9 };

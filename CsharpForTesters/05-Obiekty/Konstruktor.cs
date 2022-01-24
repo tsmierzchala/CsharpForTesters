@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CsharpForTesters._05_Obiekty
 {
-    internal class Konstruktor
+    public class Konstruktor
     {
     }
 }

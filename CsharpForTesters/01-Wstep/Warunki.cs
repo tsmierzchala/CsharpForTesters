@@ -4,9 +4,9 @@ using System.Text;
 
 namespace CsharpForTesters._01_Wstep
 {
-    internal class Warunki
+    public class Warunki
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
         }
     }

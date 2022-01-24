@@ -5,7 +5,7 @@ W klasie `Modyfikatory.cs` utwórz zmienne klasowe jak poniżej (nie twórz tam 
 1. private String film
 2. protected String rezyser
 3. private String scenarzysta
-4. internal double budzet
+4. public double budzet
 
 i nadaj im dowolne prawidłowe wartości.
 

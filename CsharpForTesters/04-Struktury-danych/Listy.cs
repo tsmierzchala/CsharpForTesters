@@ -4,10 +4,11 @@ using System.Text;
 
 namespace CsharpForTesters._04_Struktury_danych
 {
-    internal class Listy
+    public class Listy
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
+
         }
     }
 }

@@ -33,7 +33,7 @@ Console.WriteLine(warunek);
 
 ### Typy obiektowe
 
-Wszystkie zadania wykonaj w klasie `TypyObiektowe.cs` w metodzie `public static void Main()`
+Wszystkie zadania wykonaj w klasie `TypyObiektowe.cs` w metodzie `public static void Main(string[] args)`
 
 #### Zadanie 4
 
@@ -94,7 +94,7 @@ Używając wyrażenia `switch` wydrukuj napis z nazwą dnia tygodnia na podstawi
 
 Wszystkie zadania do rozwiązania w klasie `Metody.cs`. 
 
-Działanie metod przetestuj w metodzie `public static void Main()`
+Działanie metod przetestuj w metodzie `public static void Main(string[] args)`
 
 #### Zadanie 10
 

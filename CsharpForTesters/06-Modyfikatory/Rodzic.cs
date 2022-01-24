@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CsharpForTesters._06_Modyfikatory
 {
-    internal class Rodzic
+    public class Rodzic
     {
     }
 }

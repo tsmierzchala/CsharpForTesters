@@ -4,9 +4,9 @@ using System.Text;
 
 namespace CsharpForTesters._03_Wyjatki
 {
-    internal class Wyjatki
+    public class Wyjatki
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             var a = 10;
             var b = 0;

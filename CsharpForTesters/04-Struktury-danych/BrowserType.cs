@@ -11,7 +11,7 @@ namespace CsharpForTesters._04_Struktury_danych
     //{
     //    string driver = null;
 
-    //    public static void Main()
+    //    public static void Main(string[] args)
     //    {
 
     //    }

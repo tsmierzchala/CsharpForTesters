@@ -4,9 +4,9 @@ using System.Text;
 
 namespace CsharpForTesters._01_Wstep
 {
-    internal class TypyObiektowe
+    public class TypyObiektowe
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
 
         }
