@@ -11,4 +11,12 @@ i nadaj im dowolne prawidłowe wartości.
 
 
 #### Zadanie 2
-W klasie `TestyModyfikatorow.cs` utwórz obiekt Modyfikatory poprzed konstrukcję
+1. W klasie `TestyModyfikatorow.cs` utwórz obiekt Modyfikatory
+2. Spróbuj ustawić dowolne pola
+
+
+#### Zadanie x - gettery i settery
+TODO
+
+#### Zadanie x - właściwości (properties)
+TODO
