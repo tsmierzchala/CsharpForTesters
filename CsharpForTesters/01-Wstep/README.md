@@ -32,8 +32,8 @@ Console.WriteLine(warunek);
 
 
 ### Typy obiektowe
-
 Wszystkie zadania wykonaj w klasie `TypyObiektowe.cs` w metodzie `public static void Main(string[] args)`
+We właściwościach projektu zmień Startup object na ...TypyObiektowe.
 
 #### Zadanie 4
 
