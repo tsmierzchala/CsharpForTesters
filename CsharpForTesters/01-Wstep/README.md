@@ -132,7 +132,7 @@ Metoda ma zwrócić true (kwota się zgadza) lub false (kwota się nie zgadza)
 *Podpowiedź: Użyj Math.Round() do zaokrąglenia porównywanych kwot do jednego grosza.*
 
 ```csharp
-public static bool validateSumWithDiscount(int pcs, double price, double discount, double expectedSum)
+public static bool ValidateSumWithDiscount(int pcs, double price, double discount, double expectedSum)
 ```
 
 #### Zadanie 14
