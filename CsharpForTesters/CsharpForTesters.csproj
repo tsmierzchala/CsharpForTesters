@@ -3,7 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>CsharpForTesters._05_Obiekty.Klasy</StartupObject>
+    <StartupObject>CsharpForTesters._07_RegEx.FileParser</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="cennik.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>

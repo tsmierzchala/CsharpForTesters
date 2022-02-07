@@ -15,10 +15,10 @@ i nadaj im dowolne prawidłowe wartości.
 2. Spróbuj ustawić dowolne pola
 
 
-#### Zadanie x - gettery i settery
+#### Zadanie 3 - gettery i settery
 1. Utwórz klasę User z prywatnym polem `int age`;
 2. Napisz do niego publiczną metodę (setter) ustawiającą wartość wieku, ale tylko jeżeli podany wiek zawiera się w przedziale <1, 150>
 3. Napisz do niego publiczną metodę (getter) pobierającą wartość wieku z prywatnego pola
 
-#### Zadanie x - właściwości (properties)
+#### Zadanie 4 - właściwości (properties)
 1. Zrefaktoryzuj kod i zamiast pól prywatnych oraz metod, utwórz Właściwość (Property)
