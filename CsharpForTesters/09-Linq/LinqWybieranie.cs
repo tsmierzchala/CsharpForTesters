@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace CsharpForTesters._09_Linq
 {
@@ -23,6 +23,12 @@ namespace CsharpForTesters._09_Linq
 
             // znajdź liczby podzielne przez 5
             // List<int> fiveMultiplies = ...
+            var podzielnePrzez5 = numbers.Where(e => e%5==0).ToList();
+
+            foreach (int n in podzielnePrzez5)
+            {
+                Console.WriteLine(n);
+            }
         }
     }
 }

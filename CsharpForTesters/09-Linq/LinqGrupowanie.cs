@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CsharpForTesters._09_Linq
@@ -23,9 +24,23 @@ namespace CsharpForTesters._09_Linq
 
             // jakie kwoty wpłynęły do nas z poszczególnych banków (pogrupuj)
 
-            // ile mamy zamówień opłaconych z banku ING (zsumuj)
+            var banks = customers.GroupBy(b => b.Bank);
+            foreach (var bank in banks)
+            {
+                // to nam wydrukuje klucze banków
+                Console.WriteLine(bank.Key);
+                
+                // dla każdego klucza banku, wydrukuj Name z Customera
+                foreach (Customer c in bank)
+                {
+                    Console.WriteLine(c.Name);
+                }
+            }
 
-            // 
+            // ile mamy zamówień opłaconych z banku ING (zsumuj)
+            var millenium = banks.FirstOrDefault(b => b.Key == "MIL");
+            // to nam zwraca kolekcję Customerów, więc możemy użyć Count() żeby policzyć ilu klientów mamy z banku Millenium
+            Console.WriteLine(millenium.Count());
         }
       
     }
