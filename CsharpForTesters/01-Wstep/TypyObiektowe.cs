@@ -42,8 +42,6 @@ namespace CsharpForTesters._01_Wstep
                 Console.WriteLine($"Pomiar wynosi {value}");
             }
 
-            //var value2 = (0 < value < 100) ? "To nie jest akceptowalna wartość zmiennej value" : value;
-
             //zadanie 8
             double input = 5.5;
             string jakiePiwo = (input >= 4) ? "mocne" : "słabe";
