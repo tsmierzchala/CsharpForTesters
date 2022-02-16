@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>CsharpForTesters._05_Obiekty.Klasy</StartupObject>
+    <StartupObject>CsharpForTesters._06_Modyfikatory.TestyModyfikatorow</StartupObject>
   </PropertyGroup>
 
 </Project>
