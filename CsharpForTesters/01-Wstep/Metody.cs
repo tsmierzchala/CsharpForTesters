@@ -14,7 +14,25 @@ namespace CsharpForTesters._01_Wstep
             Console.WriteLine(wynik2);
 
             Console.WriteLine(PrintText("Hobbit", "JR. Tolkien", "Wydawnictwo X"));
-            
+
+            var isSumOk = validateSumWithDiscount(13, 13.2, 0.09, 156.16);
+            Console.WriteLine(isSumOk);
+
+            var firstQ = GetQuadrant(24, 42);
+            Console.WriteLine(firstQ);
+
+            var secondQ = GetQuadrant(24, -42);
+            Console.WriteLine(secondQ);
+
+            var thirdQ = GetQuadrant(-24, -42);
+            Console.WriteLine(thirdQ);
+
+            var fourthQ = GetQuadrant(-24, 42);
+            Console.WriteLine(fourthQ);
+
+            var fifthQ = GetQuadrant(0, 0);
+            Console.WriteLine(fifthQ);
+
         }
 
         //zadanie 10
@@ -35,6 +53,27 @@ namespace CsharpForTesters._01_Wstep
         {
             string tekst = $"{title}, autorstwa {author} wydany przez {publisher}";
             return tekst;
+        }
+
+        //zadanie 13
+        public static bool validateSumWithDiscount(int pcs, double price, double discount, double expectedSum)
+        {
+            return Math.Round(pcs * price - discount, 2) == expectedSum;
+        }
+
+        //zadanie 14
+        public static int GetQuadrant(double x, double y)
+        {
+            int result = x switch
+            {
+                _ when x > 0 && y > 0 => 1,
+                _ when x > 0 && y < 0 => 2,
+                _ when x < 0 && y < 0 => 3,
+                _ when x < 0 && y > 0 => 4,
+                _ => 0
+            };
+
+            return result;
         }
 
     }
