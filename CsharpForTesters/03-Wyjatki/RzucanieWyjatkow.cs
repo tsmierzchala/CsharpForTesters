@@ -11,13 +11,26 @@ namespace CsharpForTesters._03_Wyjatki
             int[] arr1 = { };
             int[] arr2 = { 1, 11, 3, 4, 9 };
 
-           
-            Console.WriteLine(GetMax(arr1));
+
+            try
+            {
+                Console.WriteLine(GetMax(arr1));
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine($"Rzucono wyjątkiem: {ex.Message}");
+            }
+
             Console.WriteLine(GetMax(arr2));
         }
 
         public static double GetMax(int[] arr)
         {
+            if (arr.Length == 0)
+            {
+                throw new ArgumentException("Tablica nie może być pusta");
+            }
+
             double max = arr[0];
             for (int i = 0; i < arr.Length; i++)
             {
