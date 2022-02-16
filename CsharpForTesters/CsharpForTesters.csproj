@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>CsharpForTesters._04_Struktury_danych.DriverFactory</StartupObject>
+    <StartupObject>CsharpForTesters._04_Struktury_danych.Listy</StartupObject>
   </PropertyGroup>
 
 </Project>
