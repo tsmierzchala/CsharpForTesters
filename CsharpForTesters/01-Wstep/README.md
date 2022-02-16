@@ -48,7 +48,7 @@ Utwórz zmienne i przypisz im dowolne wartości:
 * `string name`
 * `int age`
 
-Wydrukuj napis w formacie "Imię, ma X lat i jest (nie)pełnoletni" w zależności od tego czy zmienna `age` jest mniejsza od 18 czy nie.
+Wydrukuj napis w formacie "  w zależności od tego czy zmienna `age` jest mniejsza od 18 czy nie.
 
 *Wskazówka: Użyj do tego zmiennych `name` oraz `age` oraz string interpolation.*
 

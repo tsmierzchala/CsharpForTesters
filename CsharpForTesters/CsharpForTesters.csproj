@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>CsharpForTesters._01_Wstep.TypyProste</StartupObject>
+    <StartupObject>CsharpForTesters._01_Wstep.TypyObiektowe</StartupObject>
   </PropertyGroup>
 
 </Project>
