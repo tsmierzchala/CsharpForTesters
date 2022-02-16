@@ -8,6 +8,8 @@ namespace CsharpForTesters._05_Obiekty
     {
         public static void Main(string[] args)
         {
+            IPriceable picasso = new Paint(50, 1);   
+            Console.WriteLine(picasso.GetPrice());
         }
     }
 }
