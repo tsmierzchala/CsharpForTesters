@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CsharpForTesters._01_Wstep
@@ -31,7 +32,17 @@ namespace CsharpForTesters._01_Wstep
             Console.WriteLine(reverse);
 
             //zadanie 7
+            int value = 7;
+            if (!(Enumerable.Range(1, 100).Contains(value)))
+            {
+                Console.WriteLine("To nie jest akceptowalna wartość zmiennej value");
+            }
+            else
+            {
+                Console.WriteLine($"Pomiar wynosi {value}");
+            }
 
+            //zadanie 8
 
         }
     }
