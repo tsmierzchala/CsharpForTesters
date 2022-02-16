@@ -12,9 +12,10 @@ namespace CsharpForTesters._06_Modyfikatory
             mod.budzet = 20000;
 
             User user = new User();
-            user.setAge(200);
-            user.setAge(0);
-            user.setAge(20);
+            user.Age = 200;
+            user.Age = 0;
+            user.Age = 20;
+
 
         }
     }
