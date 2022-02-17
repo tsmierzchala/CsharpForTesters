@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>CsharpForTesters._07_RegEx.Test</StartupObject>
+    <StartupObject>CsharpForTesters._09_Linq.LinqGrupowanie</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
