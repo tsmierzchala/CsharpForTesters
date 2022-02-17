@@ -3,7 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>CsharpForTesters._06_Modyfikatory.TestyModyfikatorow</StartupObject>
+    <StartupObject>CsharpForTesters._07_RegEx.Test</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="text1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
